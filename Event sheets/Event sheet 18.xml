@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 18</name>
+    <events>
+        <event-block sid="8181559983076743">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8558258626074135" type="Sprite7">
+                    <param id="0" name="Object">Sprite9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1867536220559175" type="System">
+                    <param id="0" name="Layout">Layout 17</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6596350064198664">
+            <conditions>
+                <condition id="2" name="Key is down" sid="9330664600714458" type="Keyboard">
+                    <param id="0" name="Key">87 (W)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="9624121377137423" type="Sprite11">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4897029366935673">
+            <conditions>
+                <condition id="2" name="Key is down" sid="2869311456627382" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="3302773492190966" type="Sprite11">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7859319986241281">
+            <conditions>
+                <condition id="2" name="Key is down" sid="2508598512827746" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="5951315078985562" type="Sprite11">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5958379395275055">
+            <conditions>
+                <condition id="2" name="Key is down" sid="1767076153363007" type="Keyboard">
+                    <param id="0" name="Key">87 (W)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="6111563179111189" type="Sprite11">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2956163814713284">
+            <conditions>
+                <condition id="2" name="Key is down" sid="9882576951859725" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="4788950829623799" type="Sprite11">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4246970882841182">
+            <conditions>
+                <condition id="2" name="Key is down" sid="7740352798001203" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="1423057783362566" type="Sprite11">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6016914590520024">
+            <conditions>
+                <condition id="2" name="Key is down" sid="7199358020054201" type="Keyboard">
+                    <param id="0" name="Key">83 (S)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="3040509509254838" type="Sprite11">
+                    <param id="0" name="Control">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4699439774784295">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="3789862069461489" type="Sprite11">
+                    <param id="0" name="Object">Sprite6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="8021320246816649" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="175284607662958">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9869720080153227" type="Sprite11">
+                    <param id="0" name="Object">Sprite9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4034938169194558" type="System">
+                    <param id="0" name="Layout">Layout 17</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3068377084631934">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4408014956985226" type="Sprite11">
+                    <param id="0" name="Object">Sprite14</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set time scale" sid="429781147108243" type="System">
+                    <param id="0" name="Time scale">0.1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="107910657058829">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7179229869261321" type="Sprite11">
+                    <param id="0" name="Object">Sprite15</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set time scale" sid="9026063052051418" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6801345391437326">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="559036898311024" type="Sprite7">
+                    <param id="0" name="Object">Sprite14</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set time scale" sid="841349934690974" type="System">
+                    <param id="0" name="Time scale">0.1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6239652369564702">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1936598964234209" type="Sprite7">
+                    <param id="0" name="Object">Sprite15</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set time scale" sid="4337826863599116" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4028043587866331">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1386189047088831" type="Sprite7">
+                    <param id="0" name="Object">Sprite17</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="8" name="Set enabled" sid="5342723528051062" type="Sprite7">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="Platform" id="11" name="Set enabled" sid="1251826424897608" type="Sprite7">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4229074158441612">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4177379771182933" type="Sprite11">
+                    <param id="0" name="Object">Sprite17</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="8" name="Set enabled" sid="3408658883535408" type="Sprite11">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action behavior="Platform" id="11" name="Set enabled" sid="6780148606750979" type="Sprite11">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9356630901557449">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7080662045228903" type="Sprite7">
+                    <param id="0" name="Object">Sprite16</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="8" name="Set enabled" sid="9189139484872244" type="Sprite7">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Platform" id="11" name="Set enabled" sid="3030061070353721" type="Sprite7">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2939820778659766">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8973895127031108" type="Sprite11">
+                    <param id="0" name="Object">Sprite16</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="8" name="Set enabled" sid="576331435959199" type="Sprite11">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Platform" id="11" name="Set enabled" sid="881316480875907" type="Sprite11">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8134617457558899">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8432447519304759" type="Sprite7">
+                    <param id="0" name="Object">Sprite6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="1035932614098255" type="System" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

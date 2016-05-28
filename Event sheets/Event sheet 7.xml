@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 7</name>
+    <events>
+        <event-block sid="3299959387121169">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="7091543488762881" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="8712874515201728" type="System">
+                    <param id="0" name="Seconds">2.5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="6038900956099567" type="System">
+                    <param id="0" name="Layout">Layout 8</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

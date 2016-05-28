@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 14</name>
+    <events>
+        <event-block sid="6685830162437212">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1021421910626478" type="Sprite7">
+                    <param id="0" name="Object">Sprite6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="1814432502841358" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="6021659659765002">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="146428949074408" type="Sprite7">
+                    <param id="0" name="Object">Sprite9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6288780983983205" type="System">
+                    <param id="0" name="Layout">Layout 15</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="848780782694927">
+            <conditions>
+                <condition id="2" name="Key is down" sid="90169790652073" type="Keyboard">
+                    <param id="0" name="Key">87 (W)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="7277530856120042" type="Sprite11">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="60495112199179">
+            <conditions>
+                <condition id="2" name="Key is down" sid="783152243799932" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="2648432835970827" type="Sprite11">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6083374069936097">
+            <conditions>
+                <condition id="2" name="Key is down" sid="3662900285574819" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="3303016197603876" type="Sprite11">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2305232897849215">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8028075971071179" type="Sprite11">
+                    <param id="0" name="Object">Sprite6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="8716049456932055" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="7349515733372384">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="3807604379823755" type="Sprite11">
+                    <param id="0" name="Object">Sprite9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1285553512466743" type="System">
+                    <param id="0" name="Layout">Layout 15</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
